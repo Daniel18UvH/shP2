@@ -1,0 +1,99 @@
+/* General body style */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4CAF50, #2E8B57);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Estilos del header */
+.header {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+  font-style: italic; /* Cursiva */
+  font-weight: bold; /* Negrita */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para hacer el texto más llamativo */
+  color: #FFD700; /* Color dorado */
+}
+
+.header p {
+  font-size: 18px;
+  color: #dcdcdc;
+  font-style: italic; /* Cursiva */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.card {
+  display: block;
+  background-color: #ffffff;
+  color: #333;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  width: 150px;
+  margin: 10px;
+}
+
+.card:hover {
+  background-color: #4CAF50;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+/* Main Content */
+.main-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.main-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-style: italic; /* Cursiva */
+  font-weight: bold;
+  color: #FFD700; /* Color dorado */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Sombra llamativa */
+}
+
+.main-content p {
+  font-size: 16px;
+  color: #dcdcdc;
+  font-style: italic; /* Cursiva */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra sutil */
+}
